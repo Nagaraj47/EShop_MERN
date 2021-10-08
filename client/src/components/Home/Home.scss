@@ -1,0 +1,147 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.search-input {
+  width: 350px;
+  margin-top: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.input {
+  width: 85%;
+}
+
+.search-bar-icon {
+  width: 15%;
+  color: #948d8d;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.product {
+  width: 230px;
+  margin: 30px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  padding: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+.product-img {
+  width: 70%;
+  height: 230px;
+  padding-bottom: 20px;
+  margin: auto;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.product .product-name {
+  color: #000;
+  border-top: 1px solid lightgray;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.product .product-category {
+  color: #000;
+}
+
+.product .product-price {
+  color: #000;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.loading {
+  font-size: 40px;
+  margin: 200px 500px;
+}
+
+.no-products {
+  font-size: 30px;
+  margin-top: 200px;
+  margin-left: 440px;
+}
+
+@media screen and (max-width: 1200px) {
+  .product-list {
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .product-list {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .product-list {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .product {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .product {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .product {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .product {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .product {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .product-list {
+    margin-left: 140px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .product-list {
+    margin-left: 80px;
+  }
+}

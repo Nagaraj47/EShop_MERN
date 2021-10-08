@@ -1,0 +1,83 @@
+.form-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin-top: 70px;
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+}
+
+.form-heading {
+  font-size: 20px;
+  color: rgb(70, 69, 69);
+  margin-bottom: 25px;
+}
+
+.form-label {
+  color: rgb(70, 69, 69);
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.form-input {
+  border: 1px solid rgb(70, 69, 69);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .fas {
+    padding-left: 15px;
+    color: rgb(70, 69, 69);
+  }
+}
+.form-input input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.form-input input::placeholder {
+  font-size: 15px;
+}
+
+.form-input input:focus {
+  outline: none;
+}
+.form-bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.submit-btn {
+  padding: 8px 35px;
+  font-size: 18px;
+  background-color: #171717;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.new-user {
+  font-size: 15px;
+  cursor: pointer;
+  &:hover {
+    color: rgb(255, 51, 0);
+  }
+}
+
+.err {
+  color: red;
+  font-size: 15px;
+  margin-bottom: 10px;
+}

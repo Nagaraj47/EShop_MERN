@@ -1,0 +1,41 @@
+.popup {
+  width: 350px;
+  height: 200px;
+  position: fixed;
+  top: 30%;
+  left: 37%;
+  padding: 20px;
+  color: #fff;
+  background-color: #171717;
+  border-radius: 5px;
+}
+
+.popup .text {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.popup .buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.popup .buttons .btn {
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup .buttons .login-btn {
+  background-color: rgb(25, 155, 25);
+  padding: 10px 40px;
+}
+
+.popup .buttons .cancel-btn {
+  background-color: red;
+  padding: 10px 32px;
+}
